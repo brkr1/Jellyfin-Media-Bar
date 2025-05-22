@@ -1004,9 +1004,9 @@ const SlideCreator = {
       const endTime = new Date(currentTime.getTime() + milliseconds);
       const options = { hour: "2-digit", minute: "2-digit", hour12: false };
       const formattedEndTime = endTime.toLocaleTimeString([], options);
-      runTimeElement.textContent = `Ends at ${formattedEndTime}`;
+      runTimeElement.textContent = `Termina às ${formattedEndTime}`;
     } else {
-      runTimeElement.textContent = `${season} Season${season > 1 ? "s" : ""}`;
+      runTimeElement.textContent = `${season} Temporada${season > 1 ? "s" : ""}`;
     }
 
     ratingTest.append(
